@@ -1,0 +1,35 @@
+/*Selector{
+    Property: value;   
+}*/ 
+
+body{
+
+    background-image: url(picture.jpg);
+    background-size: cover;
+}
+
+h2,p{
+    color: red;
+    text-align: center;
+    border: 5px solid rgba(255, 176,170, 0.5);
+    cursor: pointer;
+}
+p{
+    color: pink;
+    line-height: 35px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 150%;
+    font-family: 'Yusei Magic', sans-serif;
+}
+li{
+   list-style: none;
+   display: inline-block;  
+}
+
+.webtext{
+    border: 5px dashed green;
+}
+.active{
+    color: red;
+}

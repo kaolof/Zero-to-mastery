@@ -1,0 +1,28 @@
+CSS Cheat Sheet
+
+Reference:
+*https://www.w3schools.com/cssref/css_selectors.asp
+*https://css-tricks.com/almanac/
+
+Cascading Style Sheets at the most basic level it indicates that the order of CSS rules matter. 
+
+
+.class
+#id
+*
+element
+element, element (h2,p{}---> i want h2 and p have the same properties)
+element element (h2 p{} ---> i want to select all 'p' that are inside h2)
+element > element (h2>p{}---> i want to select all p's -all paragraphs- that have a parent of 'h2')
+element + element (select any 'p' element that is exactly next to 'h2' element)
+:hover (h2>p{}---> at the first sight it looks like nothing are hapening and that part dosen't hace properties, but when you put the cursor above the element you 
+	will be able to see the properties that you configured on the css doc)
+:last-child
+:first-child
+!important (not recommended)
+
+
+What seletors win out in the cascade depends on:
+-Specificity
+-Importance
+-Source Order
